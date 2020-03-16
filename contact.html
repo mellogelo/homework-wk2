@@ -25,8 +25,49 @@
           </div>
         </div>
       </nav>
+    
+      <!-- Hero -->
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Let's Work Together!</h1>
+          <p class="lead">Submit your contact information and a brief overview of your project and I'll be in touch with you as soon as possible.</p>
+        </div>
+      </div>
 
+    <!-- Form -->
 
+    <div class="container my-4 p-3">
+        <form>
+            <div class="form-group">
+                <label for="formGroupExampleInput">First and Last Name</label>    <!-- Name -->
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="ex. Jon Snow">
+              </div>
+              <div class="form-group">
+                <label for="formGroupExampleInput2">Phone Number</label>
+                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="1-XXX-XXX-XXXX">
+              </div>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Email address</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="jonsnow@gmail.com">
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Project Overview</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+          <div class="form-group">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+              <label class="form-check-label" for="invalidCheck">
+                Agree to terms and conditions
+              </label>
+              <div class="invalid-feedback">
+                You must agree before submitting.
+              </div>
+            </div>
+          </div>
+          <button class="btn btn-primary" type="submit">Submit form</button>
+        </form>
+    </div>
 
 
 
