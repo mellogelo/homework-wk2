@@ -2,6 +2,11 @@
 Bootstrap CSS Homework 2 - Our Portfolio
 
 =======
+My Description
+
+Homework 2 - is a website created from scratch using bootstrap. Using pre made components from bootstrap, build a portfolio site with 3 pages.
+an about me, portfolio and contact. I just used a simple nav bar and website layout for this project. Nothing complicated. Each page has a hero and a body for the contents.
+=======
 Homework Instructions:
 
 
